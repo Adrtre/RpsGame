@@ -1,0 +1,4 @@
+rootProject.name = 'RPSGame'
+include 'src:main:com.kodilla.rps'
+findProject(':src:main:com.kodilla.rps')?.name = 'com.kodilla.rps'
+
